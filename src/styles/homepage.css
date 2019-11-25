@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: pink;
+  margin: 0;
+}
+
+
+header {
+  text-align: center;
+  font-size: 60px;
+  color: #333;
+}
+
+
+.homepage {
+  justify-content: space-between;
+  margin: auto;
+  width: 1200px;
+  text-align: center;
+  /* margin-top: 30px; */
+}
+
+.HomePageLink  {
+  width: 355px;
+  height: 175px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  margin: 10px;
+  padding: 65px;
+  /* background-color: black; */
+  font-size: 35px;
+  font-family: cursive, sans-serif;
+}
+
+.top, .mid, .bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.makeup {
+  background-color: lightseagreen;
+}
+
+.hair {
+  background-color: lightseagreen;
+}
+
+.diy {
+  background-color: lightseagreen;
+}
+
+.selfcare {
+  background-color: rgb(132, 98, 196);
+}
+
+.female {
+  background-color: rgb(132, 98, 196);
+}
+
+.sharing {
+  background-color: lightseagreen;
+  border-radius: 10%;
+  height: 150px;
+  padding-top: 30px;
+}
+
+
+.StoriesRoot {
+  
+}
+
+.StoriesBackgroundPostiion {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.StoriesBackgroundImage {
+  background-image: url(https://images.pexels.com/photos/2954199/pexels-photo-2954199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=800&w=1000);
+  background-size: cover;
+  background-position: center;
+}
+
+.StoriesBackgroundOverlay {
+  background-color: rgba(255, 255, 255, 0.8);
+}

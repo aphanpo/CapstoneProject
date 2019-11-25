@@ -1,0 +1,101 @@
+html {
+box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+body {
+    background-color: pink;
+}
+
+header {
+    text-align: center;
+    font-size: 60px;
+    color: #333;
+}
+
+
+.intake {
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 20px;
+    column-gap: 70px;
+}
+
+.prompt {
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.signature {
+    padding: 0;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+    font-family: cursive;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.newAcct {
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+}
+
+input {
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    outline: none;
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.createNew {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    outline: none;
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid transparent;
+    margin-right: 10px;
+}
+
+.login {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.userLinks, .userLinks>p {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.userLinks>p {
+    padding-top: 3px;
+    padding-left: 3px;
+}
+
+.SignInLink {
+    margin-left: 30px;
+}
